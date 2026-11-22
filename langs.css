@@ -1,0 +1,19 @@
+/* ===========================================================
+   Bài 2.1.6 – Định dạng hỗn hợp
+   File CSS ngoài, được nhúng vào languages.html bằng thẻ <link>
+   =========================================================== */
+
+/* Định dạng chung cho toàn trang */
+body {
+  background: #EEE;
+  line-height: 1.5em;   /* chiều cao dòng = 1,5 lần cỡ chữ */
+  font-size: 24pt;
+}
+
+/* Class .lang gắn vào các thẻ <span> chứa tên ngôn ngữ */
+.lang {
+  border: 1px solid #AAA;
+  border-radius: 20pt;  /* bo tròn 2 đầu thành dạng viên thuốc */
+  background: #CCC;
+  padding: 10pt 5pt;    /* trên-dưới 10pt, trái-phải 5pt */
+}
